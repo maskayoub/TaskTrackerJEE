@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
